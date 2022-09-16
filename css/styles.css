@@ -1,16 +1,16 @@
 :root {
-  --primari-tex-color: #212121;
+  --primari-text-color: #212121;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --accent-button-color: #2196f3;
   --button-text-color: #ffffff;
   --primari-bcg-color: #f5f5f5;
-  --paragraph-tex: #757575;
+  --paragraph-text: #757575;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primari-tex-color);
+  color: var(--primari-text-color);
   background-color: #ffffff;
 }
 
@@ -126,7 +126,7 @@ a {
 }
 
 a.link {
-  color: var(--primari-tex-color);
+  color: var(--primari-text-color);
 }
 
 .link {
@@ -382,7 +382,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--primari-tex-color);
+  color: var(--primari-text-color);
 
   margin-bottom: 10px;
 }
@@ -405,7 +405,7 @@ button {
 
   letter-spacing: 0.03em;
 
-  color: var(--paragraph-tex);
+  color: var(--paragraph-text);
 }
 
 /*------------- БЛОК 2 -------------*/
@@ -421,7 +421,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--primari-tex-color);
+  color: var(--primari-text-color);
 
   margin-bottom: 50px;
 }
@@ -445,7 +445,7 @@ button {
   position: relative;
 }
 
-.tex-wokr-list-item {
+.text-wokr-list-item {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -484,7 +484,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--primari-tex-color);
+  color: var(--primari-text-color);
 
   margin-bottom: 50px;
 }
@@ -522,7 +522,7 @@ button {
 
   letter-spacing: 0.03em;
 
-  color: var(--primari-tex-color);
+  color: var(--primari-text-color);
 
   margin-bottom: 10px;
 }
@@ -533,7 +533,7 @@ button {
 
   letter-spacing: 0.03em;
 
-  color: var(--paragraph-tex);
+  color: var(--paragraph-text);
 
   margin-bottom: 16px;
 }
@@ -610,7 +610,7 @@ button {
   overflow: hidden;
 }
 
-.gallary-effect-tex {
+.gallary-effect-text {
   position: absolute;
 
   top: 0;
@@ -632,8 +632,8 @@ button {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallery-icon:hover .gallary-effect-tex,
-.gallery-icon:focus .gallary-effect-tex {
+.gallery-icon:hover .gallary-effect-text,
+.gallery-icon:focus .gallary-effect-text {
   transform: translateY(0);
 }
 
@@ -677,16 +677,16 @@ button {
 
   letter-spacing: 0.06em;
 
-  color: var(--primari-tex-color);
+  color: var(--primari-text-color);
 }
 
-.gallery-tex {
+.gallery-text {
   font-size: 16px;
   line-height: 1.88;
 
   letter-spacing: 0.03em;
 
-  color: var(--paragraph-tex);
+  color: var(--paragraph-text);
 }
 /*------------- ПОСТІЙНІ КЛІЄНТИ -------------*/
 
@@ -764,8 +764,6 @@ address {
 
 .footer-items .container {
   display: flex;
-  align-content: center;
-  align-items: center;
 }
 
 .address-items {
@@ -780,7 +778,7 @@ address {
 
 /* .address-place {} */
 
-.place-tex {
+.place-text {
   font-size: 14px;
   line-height: 1.71;
 
@@ -807,8 +805,8 @@ address {
   color: var(--accent-color);
 }
 
-.link .place-tex:hover,
-.link .place-tex:focus {
+.link .place-text:hover,
+.link .place-text:focus {
   color: var(--accent-color);
 }
 
@@ -918,6 +916,7 @@ address {
 .social-container {
   display: flex;
   flex-direction: column;
+  margin-top: 12px;
   margin-left: 70px;
 }
 
@@ -1007,3 +1006,41 @@ address {
   background: #ffffff;
 }
 
+.label-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-left: 93px;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  margin-bottom: 20px;
+}
+
+.button-sent {
+  width: 200px;
+  height: 50px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  border: none;
+}
+
+.mail-text {
+  width: 358px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
